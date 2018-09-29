@@ -10,7 +10,7 @@ import os.path
 from constants import SCREEN_W, SCREEN_H
 
 install_dir = os.path.abspath(os.path.join(os.path.split(os.path.abspath(__file__))[0],  '..'))
-conf_filename = os.path.join(install_dir, 'scripts', 'openselfie.conf')
+conf_filename = os.path.join(install_dir, 'openselfie.conf')
 
 def restore_conf():
     global emailSubject, emailMsg, photoCaption, logopng, albumID, countdown1, countdown2

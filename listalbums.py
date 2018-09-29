@@ -121,7 +121,7 @@ def getAlbums(email):
 
     # options for oauth2 login
     configdir = os.path.expanduser('./')
-    secretsdir = os.path..join(configdir, '.secret')
+    secretsdir = os.path.join(configdir, '.secret')
     client_secrets = os.path.join(secretsdir, 'OpenSelfie.json')
     credential_store = os.path.join(secretsdir, 'credentials.dat')
 
